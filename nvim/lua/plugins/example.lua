@@ -11,8 +11,9 @@ if true then return {} end
 return {
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
-
+  { "szw/vim-maximizer" },
   { "christoomey/vim-tmux-navigator" },
+  { "szw/vim-maximizer" },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
