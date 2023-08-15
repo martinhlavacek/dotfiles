@@ -53,7 +53,7 @@ abbr grv "git remote -v"
 abbr gs "git status"
 abbr gst "git status"
 abbr hd "history delete --exact --case-sensitive \'(history | fzf-tmux -p -m)\'"
-abbr kn "killall node"
+abbr kn "kubens"
 abbr l "lsd  --group-dirs first -A"
 abbr ld lazydocker
 abbr lg lazygit

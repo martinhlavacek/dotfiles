@@ -17,9 +17,10 @@ set -gx LDFLAGS -L/opt/homebrew/opt/sqlite/lib
 set -gx PKG_CONFIG_PATH /opt/homebrew/opt/sqlite/lib/pkgconfig
 #set -gx PNPM_HOME /Users/joshmedeski/Library/pnpm # https://pnpm.io/
 set -gx RIPGREP_CONFIG_PATH "$HOME/.config/rg/ripgreprc"
-
+set -gx HELIX_RUNTIME Users/martin/.config/helix/runtime
 set -Ux BAT_THEME Nord # 'sharkdp/bat' cat clone 
-set -Ux EDITOR nvim # 'neovim/neovim' text editor 
+set -Ux EDITOR nvchad # 'neovim/neovim' text editor 
+set -Ux NVIM_APPNAME astrovim
 set -Ux fish_greeting # disable fish greeting
 set -U FZF_DEFAULT_COMMAND "fd -H -E '.git'"
 set -Ux GOPATH (go env GOPATH) # https://golang.google.cn/
@@ -62,3 +63,8 @@ fish_add_path $HOME/.local/bin
 fish_add_path $HOME/.config/tmux/plugins/tmux-nvr/bin
 fish_add_path $HOME/.config/tmux/plugins/t-smart-tmux-session-manager/bin
 fish_add_path $HOME/.config/bin # my custom scripts
+
+# pnpm
+set -gx PNPM_HOME /Users/martin/Library/pnpm
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
