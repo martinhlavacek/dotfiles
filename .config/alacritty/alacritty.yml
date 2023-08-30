@@ -20,7 +20,7 @@ font:
   size: 12.0
 
 window:
-  opacity: 1.0
+  opacity: 0.8
   padding:
     x: 14
     y: 10
@@ -66,6 +66,9 @@ key_bindings:
   - { key: T, mods: Command, chars: "\x02c" } # create a new tmux window
   - { key: W, mods: Command, chars: "\x02x" } # kill the current pane
   - { key: Z, mods: Command, chars: "\x02z" } # toggle zoom state of the current tmux pane
+
+shell:
+  program: /opt/homebrew/bin/fish
 
 import:
   - ~/.config/alacritty/aw/current.yml
