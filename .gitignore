@@ -1,0 +1,27 @@
+# Credentials & tokens
+gh/.config/gh/hosts.yml
+argocd/
+hcloud/
+op/
+containers/
+iterm2/
+github-copilot/
+raycast/
+
+# Machine-generated
+fish/.config/fish/fish_variables
+**/.DS_Store
+**/*.zwc
+**/*.pyc
+
+# Tmux plugins (installed via tpm)
+tmux/.config/tmux/plugins/*/
+!tmux/.config/tmux/plugins/tpm/
+
+# Neovim plugin cache
+nvim/.config/nvim/plugin/
+nvim/.config/nvim/.luarc.json
+
+# Lvim plugin cache
+lvim/.config/lvim/plugin/
+lvim/.config/lvim/lazy-lock.json

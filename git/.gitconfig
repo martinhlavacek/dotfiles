@@ -1,0 +1,10 @@
+[gpg]
+	format = ssh
+[user]
+	signingkey = /Users/martin/.ssh/id_rsa.pub
+[tag]
+	gpgsign = true
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /Users/martin/.config/git/allowed_signers
